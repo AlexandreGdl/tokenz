@@ -1,0 +1,8 @@
+{
+  "name": "tokenz",
+  "version": "0.0.1",
+  "description": "Discord bot to create currency on a any server",
+  "main": "index.ts",
+  "author": "AlexandreGdl",
+  "license": "MIT"
+}
