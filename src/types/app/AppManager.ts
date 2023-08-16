@@ -8,7 +8,6 @@ export class AppManager {
   private appToken: string;
 
   constructor(@inject("PrivateToken") public privateToken?: string) {
-    console.log(privateToken)
     this.appToken = privateToken ?? '';
     this.client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates] });
 
