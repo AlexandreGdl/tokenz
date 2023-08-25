@@ -1,5 +1,5 @@
 import "reflect-metadata";
-import dotenv from 'dotenv';
+const dotenv = require('dotenv');
 import { container } from 'tsyringe';
 import { AppManager } from './types/app';
 dotenv.config();
