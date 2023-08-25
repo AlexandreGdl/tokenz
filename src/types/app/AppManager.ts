@@ -3,6 +3,7 @@ import {inject, injectable} from 'tsyringe';
 
 const usersToReactTo = ['535943731480756274', '277605153144569866'];
 const userBalls = ["1143939745546776596"];
+
 const solaryEmoteCode = "1143637205806485564";
 @injectable()
 export class AppManager {
